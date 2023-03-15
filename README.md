@@ -1,2 +1,2 @@
 # Maths-P
-Serie de problemas matemáticos resueltos.
+Serie de problemas resueltos.
