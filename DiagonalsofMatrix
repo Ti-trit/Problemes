@@ -1,10 +1,9 @@
 
 
-//p
 /*
-+Program: print both diagonals of a nxn matrix
+*Program: print both diagonals of a nxn matrix
 @Khaoula_Ikkene
-
+*
  */
 
 import java.util.Random;
