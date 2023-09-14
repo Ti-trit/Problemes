@@ -1,11 +1,18 @@
 import java.util.*;
 
-/*  Author :Khaoula Ikkene
-    Date: 03/09/2023
+/*  Date: 12/09/2023
     Problem:
-*   Given a matrix that contains only the characters '0' and '1', find the biggest plus sign (+)
-*   formed by 1s in this matrix and return its size. Size, in this case, indicates the length of
-*   the plus sign's edges. In order to be a valid plus sign, the edges must be of equal length.
+*   You are watching a volleyball tournament, but you missed the beginning of the very first game of your favorite team. 
+    Now you're curious about how the coach arranged the players on the field at the start of the game.
+    
+    The team you favor plays in the following formation:
+    
+    0 3 0
+    4 0 2
+    0 6 0
+    5 0 1
+    where positive numbers represent positions occupied by players. After the team gains the serve, its members rotate one position in a clockwise direction,
+    so the player in position 2 moves to position 1, the player in position 3 moves to position 2, and so on, with the player in position 1 moving to position 6.
  */
 public class Volleyball_Positions {
 
