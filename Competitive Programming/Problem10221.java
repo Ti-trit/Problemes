@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Main {
+public class Problem10221 {
     private static int radius = 6440;
 
     public static void main(String[] args) {
