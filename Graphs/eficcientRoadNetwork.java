@@ -56,7 +56,6 @@ return true;
    }
 
    static boolean CommonRoad(ArrayList<Integer> roadsi, ArrayList<Integer> roadsj ){
-       System.out.println(roadsj);
         for (int i = 0; i<roadsi.size(); i++){
             if (roadsj.contains(roadsi.get(i))){
                 return true;
