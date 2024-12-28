@@ -1,4 +1,5 @@
-/*Se ha calculado el numero de puntos alineados en grupos de 3 para poder usar la formula : (x2-x1)/(x3-x2) = (y2-y1)/(y3-y2) lo que es equivalente a  (x2-x1)*(y3-y2) = (x3-x2)*(y2-y1) ya que trabajar con multiplicación resulta más conveniente
+/*Se ha calculado el numero de puntos alineados en grupos de 3 para poder usar la formula : (x2-x1)/(x3-x2) = (y2-y1)/(y3-y2) 
+lo que es equivalente a  (x2-x1)*(y3-y2) = (x3-x2)*(y2-y1) ya que trabajar con multiplicación resulta más conveniente
 que hacer divisiones y usar variables de tipo Double.*/
 /**
 *@author = KIB
