@@ -1,14 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-
-public class Roads_Building {
-
-
-    public void Start(){
-        int [][] roads = {{0,2},{3,1}};
-        System.out.println(Arrays.deepToString(solution(4, roads)));
-    }
-    /*Problem 2:Graphs challenge
+/*Problem 2:Graphs challenge
     Given the existing roads and the number of cities in the kingdom,
     you should use the most modern technologies and find out which roads
     should be built again to connect each pair of cities. Since the crystal ball is quite old and meticulous,
@@ -16,6 +8,14 @@ public class Roads_Building {
 
     The roads to be built should be returned in an array sorted lexicographically,
     with each road stored as [cityi, cityj], where cityi < cityj.*/
+public class Roads_Building {
+
+
+    public void Start(){
+        int [][] roads = {{0,2},{3,1}};
+        System.out.println(Arrays.deepToString(solution(4, roads)));
+    }
+    
     int[][] solution(int cities, int[][] roads) {
         ArrayList<int[]> All = new ArrayList<>();
         for (int i = 0; i < cities; i++) {
